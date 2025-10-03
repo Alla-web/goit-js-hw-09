@@ -1,0 +1,14 @@
+.gallery-container {
+  margin: 24px 156px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+
+/* стилі модалки */
