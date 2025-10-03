@@ -89,7 +89,7 @@ console.log(galleryCont);
 const lightbox = new SimpleLightbox('.gallery-container a', {
   captions: true,
   captionsData: 'alt',
-  captionDelay: 250,
+  captionDelay: 100,
   captionPosition: 'bottom',
   nav: true,
   showCounter: true,
