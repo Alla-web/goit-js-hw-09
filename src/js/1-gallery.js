@@ -67,7 +67,7 @@ const images = [
   },
 ];
 
-const galleryCont = document.querySelector('.gallery-container');
+const galleryCont = document.querySelector('.gallery');
 
 function createMarkup(array) {
   return array
@@ -84,7 +84,7 @@ function createMarkup(array) {
 
 galleryCont.insertAdjacentHTML('beforeend', createMarkup(images));
 
-const lightbox = new SimpleLightbox('.gallery-container a', {
+const lightbox = new SimpleLightbox('.gallery a', {
   captions: true,
   captionsData: 'alt',
   captionDelay: 250,
