@@ -44,7 +44,4 @@ function noLoseDataByReloauding() {
 
   inputEmail.value = savedEmail ? savedEmail : '';
   textareaMessage.value = savedMessage ? savedMessage : '';
-
-  formData.email = savedEmail;
-  formData.message = savedMessage;
 }
