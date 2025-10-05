@@ -13,6 +13,23 @@
         <h1 class="main-title">Form</h1>
         <a class="back-link" href="./index.html">Go back</a>
       </div>
+
+      <form class="feedback-form" autocomplete="off" novalidate>
+        <label class="form-label">
+          Email
+          <input class="form-element" type="email" name="email" autofocus />
+        </label>
+        <label class="form-label">
+          Message
+          <textarea
+            class="form-element"
+            name="message"
+            rows="8"
+            maxlength="184"
+          ></textarea>
+        </label>
+        <button class="button" type="submit">Submit</button>
+      </form>
     </main>
     <script type="module" src="./js/2-form.js"></script>
   </body>

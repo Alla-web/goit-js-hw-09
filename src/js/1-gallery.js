@@ -84,12 +84,10 @@ function createMarkup(array) {
 
 galleryCont.insertAdjacentHTML('beforeend', createMarkup(images));
 
-console.log(galleryCont);
-
 const lightbox = new SimpleLightbox('.gallery-container a', {
   captions: true,
   captionsData: 'alt',
-  captionDelay: 100,
+  captionDelay: 250,
   captionPosition: 'bottom',
   nav: true,
   showCounter: true,

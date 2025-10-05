@@ -7,8 +7,8 @@ import SortCss from 'postcss-sort-media-queries';
 export default defineConfig(({ command }) => {
   return {
     define: {
-      global: 'window', // <-- потрібен і в dev, і в build
-      'process.env': {}, // іноді очікують process.env
+      global: 'window',
+      'process.env': {},
     },
 
     root: 'src',
